@@ -438,7 +438,7 @@ body::-webkit-scrollbar{
     }
     #mobileNav_xBtn{
         padding: 0.5em 0.8em;
-        background-color: var(--ctaNav-fontClr);
+        /* background-color: var(--ctaNav-fontClr); */
         border-radius: 5px;
         border: none;
     }
@@ -463,4 +463,5 @@ body::-webkit-scrollbar{
         justify-content: space-between;
         font-family: var(--fontFam);
     }
+
 }

@@ -257,12 +257,12 @@ body::-webkit-scrollbar{
     text-wrap: nowrap;
 }
 .heroCta_btn1{
-    width: 52%;
+    /* width: auto; */
     background: var(--ctaNav-fontClr);
     color: #FFFFFF;
 }
 .heroCta_btn2{
-    width: 43%;
+    /* width: 43%; */
 }
 .heroCta_btnIcon{
     width: 0.6em;
@@ -467,6 +467,7 @@ body::-webkit-scrollbar{
     }
 
 }
+
 
 
 

@@ -183,17 +183,17 @@ body::-webkit-scrollbar{
     justify-content: space-between;
 }
 .heroCaption{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-items: start;
-    padding: 0 1em;
+    padding: 0 0.8em;
 }
 .heroCaption_Content{
     /* width: max-content; */
     /* min-width: 335px; */
     font-weight: 550;
     background-color: rgba(201, 205, 209, 0.3);
-    padding: 0 1em;
+    padding: 0 0.7em;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -467,6 +467,7 @@ body::-webkit-scrollbar{
     }
 
 }
+
 
 
 

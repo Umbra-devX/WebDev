@@ -254,6 +254,7 @@ body::-webkit-scrollbar{
     border-radius: 1em;
     color: var(--ctaNav-fontClr);
     font-weight: 600;
+    text-wrap-mode: nowrap;
 }
 .heroCta_btn1{
     width: 52%;
@@ -466,4 +467,5 @@ body::-webkit-scrollbar{
     }
 
 }
+
 

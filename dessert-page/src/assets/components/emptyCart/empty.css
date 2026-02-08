@@ -1,0 +1,16 @@
+.nothing-here{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: none;
+    align-items: center;
+    background: inherit;
+    margin: 0 auto;
+    gap: 1em;
+}
+.nothing-here img{
+    max-width: 100px;
+}
+.nothing-here p{
+    color: hsl(12, 20%, 44%);
+}

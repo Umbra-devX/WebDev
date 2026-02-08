@@ -1,0 +1,22 @@
+main{
+    width: 80%;
+    /* min-height: 100vh; */
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 7% 1fr;
+    grid-template-areas: 
+                    'header header'
+                    'shelf cart'
+    ;
+    gap: 1.5em;
+}
+Header{
+    grid-area: header;
+}
+Shelf{
+    grid-area: shelf;
+}
+Cart{
+    grid-area: cart;
+}

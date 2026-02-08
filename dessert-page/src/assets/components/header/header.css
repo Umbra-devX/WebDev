@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    padding: 0 0.4em;
+    display: flex;
+    align-items: end;
+    gap: 1em;
+}
+.main-page-nav{
+    width: 10%;
+}
+.main-page-nav button{
+    padding: 0.3em 0.7em;
+    display: flex;
+    align-items: center;
+    background: hsl(13, 31%, 94%, 0.1);
+    gap: 0.5em;
+    color: hsl(14, 65%, 9%);
+}
+.main-page-nav button:focus{
+    outline: none;
+}
+.header-title{
+    flex: 1;
+    font-size: 2.5em;
+    text-align: start;
+    font-weight: 500;
+    color: hsl(14, 65%, 9%);
+}

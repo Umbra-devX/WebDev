@@ -1,0 +1,38 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    text-align: start;
+    background: hsl(20, 50%, 98%);
+    height: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+}
+form h2{
+    color: hsl(14, 86%, 42%);
+}
+.total-order{
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+}
+.total-order span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.alert-info{
+    text-align: center;
+}
+.alert-info span{
+    font-weight: 700;
+}
+.confirm-order{
+    padding: 0.8em;
+    border-radius: 0.7em;
+}
+.confirm-order{
+    background: hsl(14, 86%, 42%);
+    color: hsl(13, 31%, 94%);
+}

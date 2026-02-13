@@ -1,3 +1,4 @@
+import heroImage from '../assets/images/heroImage.png'
 import styles from './HeroSection.module.css'
 import Collection from '../collection/Collection'
 
@@ -11,10 +12,11 @@ const HeroSection = ()=>{
                     <a href="#Collection">View Collection</a>
                 </div>
                 <div className={`${styles.columnLayout} ${styles.imgContainer}`}>
-                    <img src="/src/assets/images/heroImage.png" alt="hero_image" className={styles.heroImage}/>
+                    <img src={heroImage} alt="hero_image" className={styles.heroImage}/>
                 </div>
             </main>
         </>
     )
 }
+
 export default HeroSection

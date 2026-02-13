@@ -50,8 +50,12 @@
         padding: 0;
         margin: 0 auto;
     }
+    ..heroPrimary a{
+        margin-bottom: 0.4em;
+    }
     .imgContainer{
         display: none;
     }
+
 
 }

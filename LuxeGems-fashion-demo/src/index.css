@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+:root{
+  --primary: #A88A66;
+  --primary-dark: #8E7354;
+
+  --bg-main: #F3EEE8;
+  --bg-card: #FFFFFF;
+
+  --text-primary: #2E2E2E;
+  --text-secondary: #6B6B6B;
+
+  --footer-bg: #2B2B2B;
+
+  --heading-font-fam: 'PlayFair Display';
+  --body-font-fam: 'Poppins';
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'PlayFair Display';
+  src: url(/src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(/src/assets/fonts/Poppins-Regular.ttf);
+  
+}

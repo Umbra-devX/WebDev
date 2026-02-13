@@ -1,0 +1,11 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--bg-card);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#root::-webkit-scrollbar {
+    display: none;
+}

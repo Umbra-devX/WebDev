@@ -1,0 +1,52 @@
+.Card{
+    flex: 1 ;
+    width: 100%;
+    border: 1px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    box-shadow: 0 1px 3px 0 var(--primary);
+}
+.cardImage{
+    width: 100%;
+}
+.cardDetails{
+    width: 85%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-family: var(--body-font-fam);
+    font-size: 1.3em;
+    font-weight: 550;
+    color: var(--text-primary);
+}
+.ctaWhatsapp{
+    background: var(--primary);
+    padding: 1em 0;
+    width: 90%;
+    color: var(--bg-main);
+    margin-bottom: 2em;
+    border-radius: 0.6em;
+    font-family: var(--body-font-fam);
+}
+@media (max-width: 700px) {
+    .Card{
+        max-height: 250px;
+        gap: 0.4em;
+        justify-content: space-between;
+    }
+    .cardDetails{
+        font-size: 0.8em;
+        /* height: fit-content; */
+    }
+    .ctaWhatsapp{
+        padding: 0.4em 0;
+        border-radius: 0;
+        font-size: 0.8em;
+        text-wrap: nowrap;
+        margin: 0  auto 0.5em;
+    }
+}

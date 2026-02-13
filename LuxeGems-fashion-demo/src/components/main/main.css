@@ -1,0 +1,15 @@
+.main{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 2em;
+    background: var(--bg-main);
+    justify-content: space-between;
+}
+@media (max-width: 700px) {
+    .main{
+        width: 100%;
+    }
+}

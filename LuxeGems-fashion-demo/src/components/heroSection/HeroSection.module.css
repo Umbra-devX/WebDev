@@ -51,7 +51,7 @@
         margin: 0 auto;
     }
     ..heroPrimary a{
-        margin-bottom: 0.4em;
+        margin-bottom: 0.5em;
     }
     .imgContainer{
         display: none;
@@ -59,3 +59,4 @@
 
 
 }
+

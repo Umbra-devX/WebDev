@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/heroImage.png'
+import heroImage from 'LuxeGems-fashion-demo/src/assets/images/heroImage.png'
 import styles from './HeroSection.module.css'
 import Collection from '../collection/Collection'
 
@@ -20,3 +20,4 @@ const HeroSection = ()=>{
 }
 
 export default HeroSection
+

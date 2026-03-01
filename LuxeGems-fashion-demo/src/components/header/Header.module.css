@@ -44,7 +44,7 @@ header{
     width: 1em;
     height: 1em;
     padding: 0.2em;
-    display: flex;
+    display: none;
     justify-content: space-between;
     flex-direction: column;
     gap: 0.1em;
@@ -103,3 +103,4 @@ header{
         display: none;
     }
 }
+

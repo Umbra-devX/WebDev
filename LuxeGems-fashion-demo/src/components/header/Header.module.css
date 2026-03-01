@@ -41,8 +41,8 @@ header{
      font-family: var(--body-font-fam);
 }
 .hamburger{
-    width: 1em;
-    height: 1em;
+    width: 1.2em;
+    height: 1.2em;
     padding: 0.2em;
     display: none;
     justify-content: space-between;
@@ -51,13 +51,13 @@ header{
     position: relative;
 }
 .one{
-    transform: translateY(5.8px) rotate(45deg);
+    transform: translateY(5.5px) rotate(45deg);
 }
 .two{
     opacity: 0;
 }
 .three{
-    transform: translateY(-5.8px) rotate(-45deg);
+    transform: translateY(-5.5px) rotate(-45deg);
 }
 .bars{
     width: 100%;
@@ -67,16 +67,18 @@ header{
     transition: all 0.5s ease-in-out;
 }
 .mobileNav{
-    position: absolute;
+    z-index: 0;
+    position: fixed;
     width: 100vw;
     height: 90vh;
-    display: flex;
+    display: none;
     padding-top: 5em;
     gap: 1em;
     flex-direction: column;
     background: var(--primary);  
     transform: translateX(100%);
     transition: all 0.5s ease-in-out;
+    border: none;
 }
 .mobileNav a{
     color: var(--bg-main);
@@ -102,5 +104,7 @@ header{
     .navContent ul{
         display: none;
     }
+    .mobileNav{
+        display: flex;
+    }
 }
-

@@ -20,17 +20,17 @@ const Header = ({companyName})=>{
                             <li><a href="">Contact</a></li>
                         </ul>
                     </nav>
-                    <div className={styles.hamburger} onClick={() => setMobile(!mobile)}>
+                    <nav className={styles.hamburger} onClick={() => setMobile(!mobile)}>
                             <span className={mobile ? `${styles.bars} ${styles.one}` : `${styles.bars}`}></span>
                             <span className={mobile ? `${styles.bars} ${styles.two}` : `${styles.bars}`}></span>
                             <span className={mobile ? `${styles.bars} ${styles.three}` : `${styles.bars}`}></span>
-                    </div>
+                    </nav>
                 </div>
-                <div className={mobile ? `${styles.mobileNav} ${styles.open}` : `${styles.mobileNav} ${styles.close}`}>
+                <dialog className={mobile ? `${styles.mobileNav} ${styles.open}` : `${styles.mobileNav} ${styles.close}`}>
                         <a href="">Shop</a>
                         <a href="">About</a>
                         <a href="">Contact</a>
-                </div>
+                </dialog>
             </header>
         </>
     )

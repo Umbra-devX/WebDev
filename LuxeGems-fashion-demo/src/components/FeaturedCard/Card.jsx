@@ -11,9 +11,10 @@ const Card = (props)=>{
                 <span className={styles.cardName}>{cardName}</span>
                 <span className={styles.cardPrice}> ₦{cardPrice}</span>
             </div>
-                <a href="" className={styles.ctaWhatsapp}>Order via Whatsapp</a>
+                <a href="https://wa.me/2348037620132" className={styles.ctaWhatsapp}>Order via Whatsapp</a>
         </div>
     )
 }
+
 
 export default Card

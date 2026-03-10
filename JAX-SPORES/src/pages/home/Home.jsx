@@ -18,7 +18,7 @@ function Home() {
       <Value />
       <Featured/>
       <SocialProof />
-      <CtaButton link="/shop" content='Get Yours'/>
+      <CtaButton link="/shop" content='Browse Pieces'/>
     </div>
   )
 }

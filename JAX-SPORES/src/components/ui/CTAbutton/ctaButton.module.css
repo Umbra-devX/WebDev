@@ -1,0 +1,22 @@
+button{
+    width: fit-content;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: var(--cta-text);
+    background: var(--cta);
+    border: none;
+    position: sticky;
+    bottom: 1em;
+    font-family: var(--CSC);
+    animation: cta-enter 0.6s ease-in 1.2s both;
+}
+@keyframes cta-enter {
+    from{
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

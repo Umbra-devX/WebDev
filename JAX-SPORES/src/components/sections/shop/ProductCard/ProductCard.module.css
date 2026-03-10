@@ -1,0 +1,20 @@
+.ProductCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    font-size: 1em;
+    font-family: var(--CSC);
+    color: var(--accent);
+}
+.ProductCard img{
+    width: 100%;
+    aspect-ratio: 1 / 1; /* or 4/3, whatever ratio fits your design */
+    object-fit: cover;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    align-items: center;
+}

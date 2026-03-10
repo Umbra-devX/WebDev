@@ -1,0 +1,74 @@
+
+.item{
+    padding-top: var(--nav-bar-height);
+    width: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.img{
+    margin-top: 0.5rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    align-items: first baseline;
+}
+.name{
+    font-size: 1.5em;
+    font-family: var(--C-Garamond);
+    color: var(--main-text);
+}
+.price{
+    font-size: 1.5em;
+    font-family: var(--C-Garamond);
+    color: var(--main-text);
+}
+.horizontal{
+    background: var(--sec-text);
+    color: var(--sec-text);
+    height: 1px;
+    width: 100%;
+    border: none;
+}
+.description{
+    width: 100%;
+    color: var(--sec-text);
+    font-weight: 550;
+    font-size: 0.875em;
+    font-family: var(--C-Garamond);
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    color: var(--cta-text);
+    background: var(--cta);
+    font-family: var(--CSC);
+    text-align: center;
+    border-radius: 4px;
+}
+.mayAlsoLike{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap: 1rem;
+    padding: 1rem;
+}
+.mayAlsoLikeHeader{
+    color: var(--sec-text);
+    font-family: var(--CSC);
+}
+.mayAlsoLikeDetail{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}

@@ -1,0 +1,63 @@
+nav{
+    width: 100vw;
+    min-height: var(--nav-bar-height);
+    display: inline-flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0 1em;
+    color: var(--sec-text);
+    z-index: 999;
+    position: fixed;
+    left: 0;
+}
+nav a{
+    color: var(--sec-text);
+    text-decoration: none;
+}
+/* .homeNav{ */
+    /* background-color: rgb(232, 222, 210, 0.2); */
+/* } */
+.hamburger{
+    font-size: 1.3em;
+    font-weight: 100;
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jax{
+    text-transform: uppercase;
+    font-family: var(--C-Garamond);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.spores{
+    font-family: var(--CSC);
+    font-size: 1.2em;
+    margin-top: -0.6em;
+    font-weight: 600;
+}
+ .hamburger {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 1.2em;
+      cursor: pointer;
+    }
+
+.hamburger span {
+      display: block;
+      height: 1.5px;
+      width: 100%;
+      background: black;
+    }
+.light{
+    color: var(--cta-text);
+}
+.dark{
+    color: var(--sec-text);
+}
+.light span{
+    background: var(--cta-text);
+}
